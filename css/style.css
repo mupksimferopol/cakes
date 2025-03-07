@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media screen and (max-width: 951px) {
+     .carousel-caption h1 {
+        font-size: 20px;
+    }
+    .carousel-caption p {
+        font-size: 20px;
+    }
+}
+   
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+.header__logo {
+    font-family: "Viaoda Libre", serif;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+
+.header-links {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.header-link {
+    padding-right: 50px;
+    list-style-type: none;
+    color: rgb(12, 11, 11);
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Jost", serif;
+}
+
+.carousel-item {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Viaoda Libre", serif;
+}
+
+.carousel-item h1 {
+    text-align: center;
+    font-family: "Viaoda Libre", serif;
+    font-size: 80px;
+}
+
+.carousel img {
+    filter: brightness(55%);
+    max-width: 100%;
+    width: auto;
+    margin: 0 auto;
+}
+
+.header-inner {
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.header_nav {
+    text-decoration: none;
+}
+
+.onas {
+    font-size: 25px;
+    color: rgb(12, 11, 11);
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(191, 196, 207);
+}
+
+.categories__row-item img {
+    width: 400px;
+    height: 500px;
+}
+
+.categories__row-item {
+    font-size: 22px;
+    font-family: "Viaoda Libre", serif;
+    width: 400px;
+    margin: 20px;
+    font-weight: 300;
+    color: #000;
+}
+
+.categories__row {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+    font-family: "Viaoda Libre", serif;
+    font-size: 30px;
+    flex-wrap: wrap;
+}
+
+.categories__row-item p {
+    font-size: 25px;
+    font-family: "Viaoda Libre", serif;
+}
+
+.btn-open {
+    border-radius: 10%;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(46, 39, 39);
+    font-family: "Jost", serif;
+
+    background-color: rgb(188, 202, 228);
+    border-color: rgb(191, 196, 207);
+}
+
+.btn-open a {
+    text-decoration: none;
+    color: rgb(46, 39, 39);
+    font-family: "Jost", serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.catalog {
+    text-align: center;
+    margin: 15px;
+    font-family: "Viaoda Libre", serif;
+    background-color: rgb(191, 196, 207);
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.fillings img {
+    width: 300px;
+    height: 400px;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.fillings {
+    font-size: 30px;
+    color: rgb(22, 19, 19);
+    font-family: "Jost", serif;
+    width: 400px;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+.btn-buy {
+    border-radius: 10%;
+    background-color: rgb(189, 117, 117);
+    text-align: center;
+    font-size: 25px;
+    color: rgb(245, 231, 231);
+    font-family: "Jost", serif;
+    border-color: rgb(189, 117, 117);
+}
+
+.btn-buy1 {
+    border-radius: 10%;
+    background-color: rgb(189, 117, 117);
+    text-align: center;
+    font-size: 25px;
+    color: rgb(49, 32, 32);
+    font-family: "Jost", serif;
+    border-color: rgb(22, 14, 14);
+}
+
+.btn-buy2 {
+    border-radius: 10%;
+    background-color: rgb(182, 107, 46);
+    text-align: center;
+    font-size: 25px;
+    color: rgb(223, 201, 201);
+    font-family: "Jost", serif;
+    border-color: rgb(167, 89, 37);
+}
+
+.btn-buy3 {
+    border-radius: 10%;
+    background-color: rgb(185, 165, 47);
+    text-align: center;
+    font-size: 25px;
+    color: rgb(107, 78, 175);
+    font-family: "Jost", serif;
+    border-color: rgb(76, 64, 187);
+}
+
+.btn-buy4 {
+    border-radius: 10%;
+    background-color: rgb(153, 11, 11);
+    text-align: center;
+    font-size: 25px;
+    color: rgb(34, 9, 9);
+    font-family: "Jost", serif;
+    border-color: rgb(82, 14, 14);
+}
+
+.btn-buy5 {
+    border-radius: 10%;
+    background-color: rgb(53, 17, 17);
+    text-align: center;
+    font-size: 25px;
+    color: rgb(182, 147, 95);
+    font-family: "Jost", serif;
+    border-color: rgb(27, 8, 8);
+}
+
+.btn-buy6 {
+    border-radius: 10%;
+    background-color: rgb(175, 123, 25);
+    text-align: center;
+    font-size: 25px;
+    color: rgb(44, 15, 15);
+    font-family: "Jost", serif;
+    border-color: rgb(143, 96, 8);
+}
+
+.btn-buy7 {
+    border-radius: 10%;
+    background-color: rgb(196, 173, 131);
+    text-align: center;
+    font-size: 25px;
+    color: rgb(44, 15, 15);
+    font-family: "Jost", serif;
+    border-color: rgb(143, 129, 103);
+}
+
+.btn-buy8 {
+    border-radius: 10%;
+    background-color: rgb(206, 149, 42);
+    text-align: center;
+    font-size: 25px;
+    color: rgb(105, 70, 54);
+    font-family: "Jost", serif;
+    border-color: rgb(70, 38, 12);
+}
+
+.btn-buy9 {
+    border-radius: 10%;
+    background-color: rgb(196, 173, 131);
+    text-align: center;
+    font-size: 25px;
+    color: rgb(44, 15, 15);
+    font-family: "Jost", serif;
+    border-color: rgb(163, 143, 105);
+}
+
+.btn-buy10 {
+    border-radius: 10%;
+    background-color: rgb(170, 120, 54);
+    text-align: center;
+    font-size: 25px;
+    color: rgb(173, 36, 36);
+    font-family: "Jost", serif;
+    border-color: rgb(170, 128, 64);
+    margin-bottom: 20px;
+}
+
+.btn-buy11 {
+    border-radius: 10%;
+    background-color: rgb(163, 55, 55);
+    text-align: center;
+    font-size: 25px;
+    color: rgb(231, 211, 211);
+    font-family: "Jost", serif;
+    border-color: rgb(185, 71, 71);
+    margin-bottom: 20px;
+}
+
+.btn-buy12 {
+    border-radius: 10%;
+    background-color: rgb(170, 120, 54);
+    text-align: center;
+    font-size: 25px;
+    color: rgb(209, 195, 186);
+    font-family: "Jost", serif;
+    border-color: rgb(170, 128, 64);
+    margin-bottom: 20px;
+}
+
+.categories_filling {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+    font-family: "Viaoda Libre", serif;
+    font-size: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main_form {
+    text-align: center;
+    margin: 15px;
+    background-color: rgb(191, 196, 207);
+    font-family: "Viaoda Libre", serif;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 300;
+}
+
+input {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 25px;
+    margin: 20px;
+    padding: 5px;
+    font-family: "Jost", serif;
+}
+
+label {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Jost", serif;
+    margin-top: 20px;
+}
+
+label form {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+select {
+    font-size: 20px;
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(188, 202, 228);
+    border-radius: 5px;
+    color: #000;
+    text-align: center;
+    font-family: "Jost", serif;
+}
+
+input[type=email] {
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Jost", serif;
+    background-color: rgb(188, 202, 228);
+    border-color: rgb(191, 196, 207);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Jost", serif;
+    background-color: rgb(188, 202, 228);
+    border-color: rgb(191, 196, 207);
+    margin-left: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+input[type=radio] {
+    margin-left: 50%;
+    margin-top: none;
+    margin-left: 20px;
+}
+
+.tel {
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(188, 202, 228);
+    border-radius: 5px;
+}
+
+textarea {
+    border-color: rgb(191, 196, 207);
+    border-width: 3px;
+    border-radius: 5px;
+    font-family: "Jost", serif;
+    font-size: 20px;
+}
+
+input[type=date] {
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(188, 202, 228);
+    border-color: rgb(191, 196, 207);
+    margin-left: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+input[type=number] {
+    border-radius: 5px;
+    width: 20%;
+    font-family: "Jost", serif;
+    background-color: rgb(188, 202, 228);
+    border-color: rgb(191, 196, 207);
+    margin-left: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+input[type=color] {
+    border-radius: 3px;
+    width: 20%;
+    font-family: "Jost", serif;
+    background-color: rgb(188, 202, 228);
+    border-color: rgb(191, 196, 207);
+    margin-left: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+input[type=button] {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: "Jost", serif;
+    background-color: rgb(188, 202, 228);
+    border-color: rgb(191, 196, 207);
+    color: rgb(17, 17, 17);
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer_about-us a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+footer {
+    background-color: rgb(27, 27, 27);
+    color: rgb(255, 255, 255);
+    font-family: "Jost", serif;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 378px) {
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+    .carousel-caption p {
+        font-size: 20px;
+    }
+    .header__logo{
+        text-align: center;
+    }
+    .header-links{
+        justify-content: center;
+    }
+    .header-link{
+        font-size: 18px;
+    }
+    .onas p{
+        font-size: 18px;
+        padding: 10px;
+    }
+    .categories__row-item img{
+        max-width: 95%;
+        width: auto;
+        height: 300px;
+    }
+    footer .container{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .categories__row-item h2{
+        font-size: 20px;
+    }
+    .categories__row-item p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .carousel-caption h1 {
+        font-size: 35px;
+    }
+    .carousel-caption p {
+        font-size: 25px;
+    }
+    .header__logo{
+        text-align: center;
+    }
+    .header-links{
+        justify-content: center;
+    }
+    .header-link{
+        font-size: 25px;
+    }
+    .onas p{
+        font-size: 18px;
+        padding: 10px;
+    }
+    .categories__row-item img{
+        max-width: 95%;
+        width: auto;
+        height: 400px;
+    }
+    footer .container{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .categories__row-item h2{
+        font-size: 30px;
+    }
+    .categories__row-item p{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .header__logo{
+        text-align: center;
+    }
+}

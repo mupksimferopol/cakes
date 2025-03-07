@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Торты на заказ</title>
+    <link rel="shortcut icon" href="img/birthday-cake_1244336.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <p class="header__logo">Sweet Dreams</p>
+            <div class="header-inner">
+                <nav class="header_nav">
+                    <ul class="header-links">
+                        <li><a class="header-link" href="index.html">Главная</a></li>
+                        <li><a class="header-link" href="cake catalog.html">Каталог</a></li>
+                        <li><a class="header-link" href="form.html">Заказать</a></li>
+                        <li><a class="header-link" href="">Акции</a></li>
+                        <li><a class="header-link" href="">Доставка</a></li>
+                        <li><a class="header-link" href="">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h1>Сладости на любой вкус</h1>
+                            <p>Тирамису</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h1>Сладости на любой вкус</h1>
+                            <p>Шоколадно-ореховый торт</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-block">
+                            <h1>Сладости на любой вкус</h1>
+                            <p>Три шоколада</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main_form">
+            <h2>Для заказа заполните форму</h2>
+        </div>
+        <br>
+        <select name="sweets" id="">
+            <option value="choose">Что вы хотите заказть?</option>
+            <option value="cakes">Пироженые</option>
+            <option value="cookies">Кукис</option>
+            <option value="mini_cake">Бенто</option>
+            <option value="cake">Торты</option>
+        </select>
+
+        <br>
+        <label for="telephone">Напишите номер телефона</label>
+        <input type="email" placeholder="+7978">
+
+        <label for="address">Укажите адрес доставки</label>
+        <input type="text">
+
+        <label for="allergy">Если ли у вас аллергия?</label>
+        <br>
+        <label class="tel" for="allergy">Да,есть
+            <input type="radio" value="yes" name="allergy">
+        </label>
+
+        <label class="tel" for="telephone">Нет
+            <input type="radio" value="no" name="allergy">
+        </label>
+        <br>
+
+        <Label for="text">На что у вас аллергия?</Label>
+        <br>
+        <textarea name="text" id="" cols="30" rows="5"></textarea>
+        <br>
+
+        <label for="start">Укажите дату мероприятия</label>
+        <input type="date" id="date" name="trip-start" value="2025-03-22" >
+
+        <label for="kilogram">Укажите желаемый вес торта (в кг.)</label>
+        <input type="number" max="5" min="0">
+
+        <label for="color_cake">Выберите цвет торта</label>
+        <input type="color">
+
+        <Label for="text">Для деталей</Label>
+        <br>
+        <textarea name="text" id="" cols="30" rows="5"></textarea>
+
+        <input type="button" value="Заказать">
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-left">
+                <p class="footer_about-us"><a href="cake catalog.html">Каталог</a></p>
+                <p>Акции</p>
+                <p>Магазины</p>
+            </div>
+            <div class="footer-center">
+                <p>Компания</p>
+                <p class="footer_about-us"><a href="index.html">О нас</a></p>
+                <p>Новости</p>
+                <p>Карьера</p>
+                <p>Контакты</p>
+            </div>
+            <div class="footer-right">
+                <p>8 830 957 80 50</p>
+                <p>sweetdreams@mail.ru</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="js/script-second.js"></script>
